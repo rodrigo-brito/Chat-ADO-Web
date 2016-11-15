@@ -1,0 +1,19 @@
+{
+  "name": "chat-ado-web",
+  "version": "1.0.0",
+  "description": "Simple web chat with Firebase",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-brito/Chat-ADO-Web.git"
+  },
+  "author": "Rodrigo Brito (www.rodrigobrito.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigo-brito/Chat-ADO-Web/issues"
+  },
+  "homepage": "https://github.com/rodrigo-brito/Chat-ADO-Web#readme"
+}

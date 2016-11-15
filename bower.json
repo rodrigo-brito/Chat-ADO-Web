@@ -1,0 +1,22 @@
+{
+  "name": "Chat-ADO-Web",
+  "homepage": "https://github.com/rodrigo-brito/Chat-ADO-Web",
+  "authors": [
+    "Rodrigo Brito <rig.10@hotmail.com>"
+  ],
+  "description": "Simple web chat with firebase",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

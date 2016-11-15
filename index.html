@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	<script src="./bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyAtG3WAOJhm6PYjZpogFm5K_Sxk1v2-Y64",
+			authDomain: "webchat-9b1a8.firebaseapp.com",
+			databaseURL: "https://webchat-9b1a8.firebaseio.com",
+			storageBucket: "webchat-9b1a8.appspot.com",
+			messagingSenderId: "893299834015"
+		};
+		firebase.initializeApp(config);
+	</script>
+	<script src="./js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+	<title>Chat-ADO - Simple Firebase Chat</title>
+</head>
+<body>
+	<div class="panel-heading">
+		<div class="row form-inline">
+			<div class="col-md-8">
+				<h4><b>Chat-ADO - Proque o semestre está demorando acabar.</b></h4>
+			</div>
+			<div class="username-form col-md-4">
+				<div class="form-group">
+					<label for="nome">Apelido:</label>
+					<input type="text" id="input-nome" class="form-control" value="Anônimo">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="panel">
+				<div class="panel-body">
+					<div id="lista-mensagens" class="container-fluid">
+						<!-- Mensagens serão inseridas aqui -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="panel-footer">
+		<div class="input-group">
+			<form id="form-mensagem">
+				<input type="text" id="mensagem" class="form-control" placeholder="Digite sua mensagem aqui">
+			</form>
+			<span class="input-group-btn">
+				<button id="btn-enviar" class="btn btn-primary" type="button">Enviar</button>
+			</span>
+		</div>
+	</div>
+</body>
+</html>
