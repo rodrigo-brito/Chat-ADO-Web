@@ -4,20 +4,6 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/custom.css">
-	<script src="./bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
-	<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
-	<script>
-		// Initialize Firebase
-		var config = {
-			apiKey: "AIzaSyAtG3WAOJhm6PYjZpogFm5K_Sxk1v2-Y64",
-			authDomain: "webchat-9b1a8.firebaseapp.com",
-			databaseURL: "https://webchat-9b1a8.firebaseio.com",
-			storageBucket: "webchat-9b1a8.appspot.com",
-			messagingSenderId: "893299834015"
-		};
-		firebase.initializeApp(config);
-	</script>
-	<script src="./js/main.js" type="text/javascript" charset="utf-8" async defer></script>
 	<title>Chat-ADO - Simple Firebase Chat</title>
 </head>
 <body>
@@ -55,5 +41,19 @@
 			</span>
 		</div>
 	</div>
+	<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyAtG3WAOJhm6PYjZpogFm5K_Sxk1v2-Y64",
+			authDomain: "webchat-9b1a8.firebaseapp.com",
+			databaseURL: "https://webchat-9b1a8.firebaseio.com",
+			storageBucket: "webchat-9b1a8.appspot.com",
+			messagingSenderId: "893299834015"
+		};
+		firebase.initializeApp(config);
+	</script>
+	<script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
